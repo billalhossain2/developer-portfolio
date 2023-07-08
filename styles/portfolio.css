@@ -1,0 +1,278 @@
+/* Reset default browser style  */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Common Shared Styles  */
+body {
+  font-family: "Exo 2", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 18px 36px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.primary-text {
+  color: #fd6e0a;
+}
+
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* nav related style  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 51px;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  padding-right: 51px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* header related style  */
+.header {
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  margin-bottom: 130px;
+}
+
+/* banner related style  */
+.banner {
+  display: flex;
+}
+
+.banner .banner-content h3 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner .banner-content h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.banner .banner-content p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0;
+  max-width: 585px;
+  margin-right: 120px;
+}
+.profile-image {
+  width: 584px;
+}
+.profile-image img {
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+/* About section style  */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 131px 0;
+  border-radius: 10px;
+  background: #fff8f3;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+.about > p {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 30px 0;
+  max-width: 827px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.info-title {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.info {
+  color: #1b1a1a;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  font-weight: bolder;
+}
+
+/* styles for what i do section  */
+.what-i-do {
+  margin-bottom: 130px;
+}
+.what-i-do > p {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 909px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* skills related styles  */
+.skills-container {
+  display: flex;
+  gap: 24px;
+  justify-self: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+
+/* resume styles  */
+.resume {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.resume-columns-container {
+  display: flex;
+  gap: 71px;
+}
+
+.resume-columns-container h4 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.department {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.institution {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+.download-btn {
+  text-align: center;
+  margin-top: 70px;
+}
+
+/* styles for contact section  */
+footer {
+  margin-top: 130px;
+  max-width: 1140px;
+  margin: 130px auto;
+  background: #fff8f3;
+  padding: 30px;
+}
+
+.contact-columns {
+  display: flex;
+  gap: 117px;
+}
+
+.connect,
+.message {
+  width: 50%;
+}
+.connect p {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 30px 0;
+}
+
+.social-icons a {
+  margin-right: 24px;
+}
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+
+input {
+  display: block;
+  border: 0;
+  color:  #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+input[type='submit']{
+    padding: 8px 16px;
+    margin-top: 24px;
+}
