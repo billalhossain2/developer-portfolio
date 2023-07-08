@@ -191,6 +191,7 @@ nav ul li a {
 .resume-columns-container {
   display: flex;
   gap: 71px;
+  padding-top: 113px;
 }
 
 .resume-columns-container h4 {
