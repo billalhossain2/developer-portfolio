@@ -64,11 +64,11 @@ nav ul li a {
 
 /* header related style  */
 .header {
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"), url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: 100% 84%, left;
   margin-bottom: 130px;
-  padding-left: 30px;
+  padding:50px 0 50px 130px;
 }
 
 /* banner related style  */
@@ -103,7 +103,6 @@ nav ul li a {
 }
 .profile-image img {
   width: 100%;
-  margin-bottom: -5px;
 }
 
 /* About section style  */
